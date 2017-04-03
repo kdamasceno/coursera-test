@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
@@ -17,6 +17,7 @@ h1{
 p{
   padding-top: 15px;
   padding: 10px;
+  margin-bottom: 0px;
 }
 
 .subtitulo {
@@ -44,7 +45,7 @@ p{
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-/*  float: left; */
+  float: left; /* entender melhor */
 }
 
 /********** DESKTOP **********/
