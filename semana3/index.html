@@ -1,17 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>Exercício 3</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">	
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 <header>
-	
+	<nav id="header-nav" class="navbar navbar-default">
+		<div class="fluid-container">
+			 
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+      			<div class="navbar-brand"><h1>Food, LLC</h1></div>
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+      					<span class="sr-only">Toggle navigations</span>
+      					<span class="icon-bar"></span>
+      					<span class="icon-bar"></span>
+      					<span class="icon-bar"></span>
+      			</button>
+			</div> <!-- navbar-header -->
+			
+    		<div id="collapsable-nav" class="collapse navbar-collapse">
+      			<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+        			<li class="text-center"><a href="#section-chicken">Chicken</a></li>
+        			<li class="text-center"><a href="#section-beef">Beef</a></li>
+        			<li class="text-center"><a href="#section-sushi">Sushi</a></li>
+      			</ul> <!-- nav-list -->
+    		</div> <!-- .collapse .navbar-collapse -->
+		</div>	
+	</nav> <!-- header-nav -->
 </header>
+
+<div id="main-container" class="fluid-container">
+	<h1 class="text-center">Our Menu</h1>
+	<section class="row">
+		<div class="col-md-4 col-sm-6 col-xs-12">
+    		<section id="section-chicken" class="menu-section">
+      			<h3 class="text-center" id="subtitulo1">Chicken</h3>
+      			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lectus ex, lacinia non pellentesque pulvinar, tincidunt eget tortor. Etiam pulvinar felis ut accumsan iaculis. Integer rutrum elit ac ligula egestas, in semper neque vulputate. In vulputate dui sed pretium sagittis. Suspendisse porttitor augue at dictum dignissim. Nam elementum volutpat odio, a ullamcorper ipsum. Nullam vulputate urna venenatis, feugiat tortor vel, aliquet mi. Aenean at placerat velit.</p>
+    		</section>
+  		</div>
+  		<div class="col-md-4 col-sm-6 col-xs-12">
+    		<section id="section-beef" class="menu-section">
+      			<h3 class="text-center">Beef</h3>
+      			<p>Sed at velit dapibus, facilisis purus non, hendrerit massa. Phasellus venenatis sagittis ex, eget convallis diam fermentum et. Ut ultrices dapibus lectus eleifend varius. Quisque ut orci elit. Praesent lobortis neque posuere nisi feugiat, quis laoreet velit varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec nec gravida turpis. Vestibulum rutrum, lacus vel pharetra finibus, purus ligula facilisis nisl, non sollicitudin dolor mauris ut ex. Donec tincidunt felis elit, ac feugiat nulla volutpat ac. Ut scelerisque nibh at nunc consequat, sit amet condimentum sem volutpat. Fusce convallis nibh turpis, sit amet maximus nisl vehicula at. Donec id dictum eros.</p>
+    		</section>
+  		</div>
+  		<div class="col-md-4 col-sm-12 col-xs-12">
+    		<section id="section-sushi" class="menu-section">
+      			<h3 class="text-center">Sushi</h3>
+      			<p>Praesent egestas neque a ante condimentum fermentum in sit amet augue. Maecenas sed est quis nunc egestas rhoncus sed sed elit. Proin viverra dui nec neque sollicitudin, et finibus sapien fringilla. Nam aliquet ullamcorper dolor id molestie. Phasellus venenatis facilisis urna non placerat. In ultricies, leo in ultrices malesuada, orci quam sodales metus, at condimentum erat sem ut justo. Sed tincidunt tincidunt dui quis congue. In tempus rutrum ante, sed pellentesque sem suscipit nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce nisi eros, tincidunt non laoreet sed, elementum sit amet urna. In sit amet felis nec lorem auctor vestibulum. Aenean sit amet orci dui.</p>
+    		</section>
+  		</div>
+
+	</section> <!-- end .row -->
+</div> <!-- end #main-container -->
 
 <!-- jQuery (Bootstrap JS plugins depende on it)-->
 <script src="js/jquery-2.1.4.js"></script>
