@@ -22,12 +22,14 @@
   line-height: 0.5;
 }
 
-#collapsable-nav {
-  background-color: #999999;
+#collapsable-nav .navbar-nav {
+  margin-top: 0;
+  margin-bottom:0;
 }
 
-#nav-list {
-  margin-top: 10px;
+#collapsable-nav .navbar-nav li {
+  background-color: white;
+  border: 1px solid black;
 }
 
 #nav-list a {
@@ -52,7 +54,6 @@
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  /* background-color: #E7E7E7; */
  } 
 
 .menu-section {
@@ -75,8 +76,14 @@ h2, h3 {
   font-weight: bold;
 }
 
-p{
+.menu-section p {
   padding-top: 15px;
-  padding-bottom: 0px;
-  padding:10px;
+  padding-left:10px;
+  padding-right: 10px;
+  margin: 0px;
+}
+
+.menu-section span {
+  padding-left: 10px;
+  padding-right: 10px;
 }
